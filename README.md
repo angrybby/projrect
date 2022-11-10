@@ -1,2 +1,35 @@
-# projrect
-project file
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport"
+    content="width=device-width,initial-scale=1">
+<style>
+ *{ 
+        box-sizing:border-box;          
+ } 
+ .row
+ {
+    display:flex;
+ }
+            .column {
+            flex: 33.33%;
+            padding: 5px;
+}
+
+ </style>
+</head>
+<body>
+    <h1>imges side by side</h1>
+        <div class="row">
+        <div class="column">
+          <img src="first image.jpg" alt="first" style="width: 150%">
+        </div>
+        <div class="column">
+          <img src="second image.jpg" alt="second"style="width:150%">
+        </div>
+        <div class="column">
+          <img src="three image.jpg"alt="three" style="width:150%">
+        </div>
+      </div>
+      </body>
+</html>
